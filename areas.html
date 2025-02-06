@@ -74,7 +74,6 @@
             border: 2px solid #000;
             padding: 10px;
             text-align: center;
-            background-image: url('Area 1.jfif');
             background-size: cover;
             background-position: center;
             color: #000;
@@ -82,6 +81,18 @@
             position: relative;
         }
 
+        .area-card.a1 {
+        background-image: url('Area 1.jfif');
+        }
+        
+        .area-card.a2 {
+        background-image: url('Area 2.avif');
+        }
+        
+        .area-card.a3 {
+        background-image: url('Area 3.webp');
+        }
+        
         .area-card.locked {
             background-color: rgba(211, 211, 211, 0.8); /* Semi transparente */
             color: #888;
@@ -136,7 +147,7 @@
         <div class="content">
             <div class="areas">
                 <!-- Area 1: Cerrao -->
-                <div class="area-card locked">
+                <div class="area-card a1 locked">
                     <p>Area 1</p>
                     <div class="qr-container">
                         <img src="barcode.gif" alt="QR Placeholder">
@@ -145,7 +156,7 @@
                 </div>
 
                 <!-- Area 2: Cerrao -->
-                <div class="area-card locked">
+                <div class="area-card a2 locked">
                     <p>Area 2</p>
                     <div class="qr-container">
                         <img src="barcode.gif" alt="QR Placeholder">
@@ -154,7 +165,7 @@
                 </div>
 
                 <!-- Area 3: Cerrao -->
-                <div class="area-card locked">
+                <div class="area-card a3 locked">
                     <p>Area 3</p>
                     <div class="qr-container">
                         <img src="barcode.gif" alt="QR Placeholder">
